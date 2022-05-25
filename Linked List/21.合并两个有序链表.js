@@ -86,5 +86,8 @@ var mergeTwoLists = function(list1, list2) {
 
   return dummy.next;
 };
+
+// 时间复杂度: O(n)  n = Math.min(L1, L2)
+// 空间复杂度: O(1)  返回值不算的话
 // @lc code=end
 
