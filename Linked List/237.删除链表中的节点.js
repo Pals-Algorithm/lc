@@ -60,7 +60,10 @@
  * @return {void} Do not return anything, modify node in-place instead.
  */
 var deleteNode = function(node) {
-    
+  // 找不到上一个节点。。。
+  // 就整容自己为下一个节点。。。
+  node.val = node.next.val;
+  node.next = node.next.next;
 };
 // @lc code=end
 
